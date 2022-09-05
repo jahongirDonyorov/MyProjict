@@ -1,0 +1,117 @@
+.food__type {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.food__box {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.food__ltitle {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.food__img {
+  height: 171px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 15px;
+  position: relative;
+}
+.food__img .pbox__link {
+  position: absolute;
+  right: 14px;
+  bottom: -23px;
+}
+.food__info {
+  padding: 15px;
+}
+.food__title {
+  font-size: 18px;
+}
+.food__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+}
+.food__count {
+  display: flex;
+  align-items: center;
+}
+.food__count button {
+  width: 26px;
+  height: 26px;
+  background-color: #157AFE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.food__count button:hover {
+  background-color: #135CBB;
+}
+.food__value {
+  width: 37px;
+  padding: 0px 5px;
+  text-align: center;
+}
+.food__calc {
+  border-radius: 15px;
+  background: #fff;
+  padding: 15px 22px;
+  font-size: 18px;
+  font-weight: 700;
+  position: sticky;
+  top: 100px;
+}
+.food__calc--title {
+  padding: 5px 0;
+}
+.food__list li {
+  color: #5B5B5B;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.food__list li:last-child {
+  border-bottom: 0;
+}
+.food__list li span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  display: block;
+}
+.food__all {
+  border-top: 1px solid #656565;
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+}
+.food__report {
+  font-size: 10px;
+  font-style: italic;
+  color: #383838;
+}
+.food__order {
+  padding: 7px 0px;
+  background-color: #619B32;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 13px;
+  transition: 0.5s;
+}
+.food__order:hover {
+  color: black;
+}

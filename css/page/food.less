@@ -1,0 +1,132 @@
+@import '../var.less';
+
+.food {
+
+  &__type {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  &__box {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  &__ltitle{
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  &__img {
+    height: 171px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    position: relative;
+    .pbox__link{
+      position: absolute;
+      right: 14px;
+      bottom:-23px;
+    }
+  }
+
+  &__info {
+    padding: 15px;
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &__count {
+    display: flex;
+    align-items: center;
+
+    button {
+      width: 26px;
+      height: 26px;
+      background-color: @blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: @dblue;
+      }
+    }
+  }
+
+  &__value {
+    width: 37px;
+    padding: 0px 5px;
+    text-align: center;
+  }
+  &__calc{
+    border-radius: 15px;
+    background: #fff;
+    padding: 15px 22px;
+    font-size: 18px;
+    font-weight: 700;
+    position: sticky;
+    top: 100px;
+    &--title{
+      padding: 5px 0;
+    }
+  }
+  &__list{
+    li{
+      color: #5B5B5B;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 5px 0;
+      border-bottom: 1px solid #EFEFEF;
+      &:last-child{
+        border-bottom: 0;
+      }
+      span{
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+        display: block;
+      }
+    }
+  }
+  &__all{
+    border-top: 1px solid #656565;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  &__report{
+    font-size: 10px;
+    font-style: italic;
+    color: #383838;
+  }
+  &__order{
+    padding: 7px 0px;
+    background-color: @green;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;  
+    margin-top: 13px;
+    transition: .5s;
+    &:hover{
+      color: black;
+    }
+  }
+}
